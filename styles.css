@@ -216,11 +216,13 @@ margin: 0 auto;
 }
 
 .books {
-    display: flex;   
+    display: flex; 
+    flex-wrap: wrap;  
 }
 
 .book {
     width: 25%;
+    font-weight: bold;
     padding: 24px;
 }
 
@@ -254,6 +256,7 @@ transform: scale(1.03);
 .book__ratings {
     margin-bottom: 8px;
     color: #fabf2a;
+    display: flex;
 }
 
 .book__price--normal {
