@@ -100,7 +100,7 @@ li {
   justify-content: center;
   align-items: center;
   transition: all 300ms ease;
-  display: none;
+  display: flex;
   opacity: 0;
   visibility: hidden;
 }
@@ -123,6 +123,11 @@ align-items: center;
 
 .menu__list {
     padding: 32px 0;
+}
+
+.menu__link {
+font-size: 40px;
+color: white;
 }
 
 .btn__menu--close {
@@ -255,7 +260,6 @@ margin: 0 auto;
 }
 .highlight__wrapper {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .highlight {
@@ -403,8 +407,9 @@ padding: 0 8px;
 
 
 @media (max-width:550px) {
-    .btn__menu 
+    .btn__menu {
     display:block;
+    }
 
     .nav__links {
         display: none;
